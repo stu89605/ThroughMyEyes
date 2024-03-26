@@ -2,25 +2,141 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-     <link rel="icon" type="image/png" href="/assets/img/logo.png">
-     <link rel="stylesheet" href="style.css">
-    <title>Through My Eyes</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="video-container">
-        <video autoplay muted loop id="video-background">
-          <source src="/assets/img/bg.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <div class="content">
-          <h1>Welkom op mijn website</h1>
-          <p>Dit is een voorbeeld van een video achtergrond met HTML en CSS.</p>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Portfolio</a>
+            <a href="">Info</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem1.JPG">
+                <div class="content">
+                    <div class="title">Uros</div>
+                    <div class="title">Avramovic</div>
+                    <div class="topic">Foto Galerij</div>
+                    <div class="des">
+                       Hier zijn alle foto's die ik heb genomen op verschillende plekken en delen van Milaan, Servie, Nederland etc.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem2.JPG">
+                <div class="content">
+                    <div class="title">Uros</div>
+                    <div class="title">Avramovic</div>
+                    <div class="topic">Foto Galerij</div>
+                    <div class="des">
+                       Hier zijn alle foto's die ik heb genomen op verschillende plekken en delen van Milaan, Servie, Nederland etc.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem3.JPG">
+                <div class="content">
+                    <div class="title">Uros</div>
+                    <div class="title">Avramovic</div>
+                    <div class="topic">Foto Galerij</div>
+                    <div class="des">
+                       Hier zijn alle foto's die ik heb genomen op verschillende plekken en delen van Milaan, Servie, Nederland etc.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem4.JPG">
+                <div class="content">
+                    <div class="title">Uros</div>
+                    <div class="title">Avramovic</div>
+                    <div class="topic">Foto Galerij</div>
+                    <div class="des">
+                       Hier zijn alle foto's die ik heb genomen op verschillende plekken en delen van Milaan, Servie, Nederland etc.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem1.JPG">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem2.JPG">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem3.JPG">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/Fotos/Nederland/bloem4.JPG">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
