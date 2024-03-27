@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Galerij</title>
+    <link rel="icon" href="/Fotos/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/Fotos/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Contact/contact.css">
+</head>
+<body>
+    <h2>Contact Formulier</h2>
+    <form action="contact.php" method="post">
+        <label for="voornaam">Voornaam:</label><br>
+        <input type="text" id="voornaam" name="voornaam" required><br><br>
+        
+        <label for="achternaam">Achternaam:</label><br>
+        <input type="text" id="achternaam" name="achternaam" required><br><br>
+        
+        <label for="onderwerp">Onderwerp:</label><br>
+        <input type="text" id="onderwerp" name="onderwerp" required><br><br>
+        
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="telefoon">Telefoon:</label><br>
+        <input type="tel" id="telefoon" name="telefoon" maxlength="15"><br><br>
+        
+        <label for="bericht">Bericht:</label><br>
+        <textarea id="bericht" name="bericht" rows="4" cols="50" maxlength="300" required></textarea><br><br>
+        
+        <input type="submit" value="Verzenden">
+    </form>
+
+    <script src="contact.js"></script>
+</body>
+</html>
